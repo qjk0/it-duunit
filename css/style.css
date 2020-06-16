@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background: url(../img/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  color: #fff;
+}
+
+.container {
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.title {
+  margin: 20px 0 24px;
+  font-size: 2.6em;
+  font-weight: 800;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(73, 72, 72);
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.job-item {
+  margin: 0 1%;
+  margin-bottom: 40px;
+  width: 20%;
+  height: auto;
+  font-size: 1em;
+  font-family: "Open Sans";
+  background: rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 7px 15px 36px -21px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 7px 15px 36px -21px rgba(0, 0, 0, 1);
+  box-shadow: 7px 15px 36px -21px rgba(0, 0, 0, 1);
+  border-radius: 2%;
+  padding: 10px;
+  text-align: center;
+}
+
+.job-item a {
+  display: block;
+  text-decoration: none;
+  font-size: 1em;
+  color: #fff;
+}
+
+.job-item:hover {
+  -webkit-box-shadow: -11px 33px 41px -16px rgba(0, 0, 0, 1);
+  -moz-box-shadow: -11px 33px 41px -16px rgba(0, 0, 0, 1);
+  box-shadow: -11px 33px 41px -16px rgba(0, 0, 0, 1);
+}
+
+div .new-item a:before {
+  color: rgb(51, 255, 0);
+  content: "UUSI";
+}
+
+div .new-item {
+  box-shadow: 0 0 0 5px rgb(112, 167, 130);
+}
+
+div .apply-now a:before {
+  color: rgb(255, 52, 52);
+  content: "HAKU PÄÄTTYY";
+}
+
+footer {
+  clear: left;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .job-item {
+    width: 100%;
+  }
+  .title {
+    font-size: 1.5em;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 800px) {
+  .job-item {
+    width: 40%;
+  }
+  .title {
+    font-size: 1.5em;
+  }
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1200px) {
+  .job-item {
+    width: 30%;
+  }
+  .title {
+    font-size: 1.5em;
+  }
+}
