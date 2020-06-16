@@ -1,2 +1,2 @@
 # Overview
-Simppeli työpaikkalistaaja, hakee mol.fi:ssä julkaistut Turun IT-alan työpaikat.
+Simppeli työpaikkalistaaja, hakee te-palvelussa julkaistut IT-alan työpaikat.
