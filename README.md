@@ -1,2 +1,2 @@
 # Overview
-Simppeli työpaikkalistaaja, hakee te-palvelun sivuilla (mol.fi) julkaistut IT-alan työpaikat.
+Simppeli työpaikkalistaaja - listaa yhdelle sivulle te-palveluista haetut IT-alan työpaikat lisäysjärjestyksessä.
