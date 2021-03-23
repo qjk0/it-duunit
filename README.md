@@ -1,4 +1,4 @@
 # Overview
-Simppeli työpaikkalistaaja - listaa yhdelle sivulle te-palveluista haetut IT-alan työpaikat lisäysjärjestyksessä.
+Listaa yhdelle sivulle TE-palveluiden sivuilla ilmoitetut IT-alan työpaikat uusimmasta vanhimpaan.
 
 ![ScreenShot](screenshot.png)
