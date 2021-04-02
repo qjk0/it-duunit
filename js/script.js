@@ -5,8 +5,8 @@ const dateNow = moment().format("DD.MM.YYYY");
 
 const fetchData = async () => {
   const response = await fetch(url);
-  const data = await response.json();
-  const jobs = data.response.docs;
+  const fetchedData = await response.json();
+  const jobs = fetchedData.response.docs;
 
   jobs.forEach(createJobAd);
 };
